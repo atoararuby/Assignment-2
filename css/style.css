@@ -1,0 +1,372 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+.noto-serif {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+}
+
+body img{
+    width: 100%;
+}
+/* shared styles */
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* navbar styles */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 120px;
+}
+.menu-items{
+    display: flex;
+    justify-content: space-between;
+    gap: 48px;
+}
+.navbar ul{
+      display: flex;
+    justify-content: space-between;
+    gap: 48px;
+}
+.navbar ul li{
+    list-style: none;
+   
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color: #8987A1;
+}
+.navbar ul li a span{
+    color: #252432;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.cart-icon{
+    display: flex;
+    justify-content: space-between;
+    gap: 13px;
+    color: #000000;
+}
+.cart-icon span{
+    color: #000000;
+}
+/* banner styles */
+.banner{
+    display: flex;
+}
+.banner-content{
+    width: 50%;
+    padding-top: 162px;
+}
+.banner-title{
+    font-size: 65px;
+    font-weight: bold;
+    font-family: "Noto Serif", serif;
+}
+.banner-title span{
+    color: #E95A08;
+}
+.banner-description{
+    font-size: 22px;
+    font-weight: 400;
+    font-family: "Noto Serif", serif;
+    color: rgba(0, 0, 0, 0.5);
+}
+.banner-img{
+    width: 50%;
+    padding-top: 106px;
+}
+/* plants styles */
+.plants{
+    margin-top: 120px;
+    
+}
+.plants-center, .card-name, .card-price, .deals, .deals-card-content{
+    text-align: center;
+}
+.plants-title{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Noto Serif", serif;
+}
+.plants-title span{
+    color: #E95A08;
+    margin-right: 10px;
+}
+.plants-subtitle{
+    font-size: 22px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    margin-top: 16px;
+    margin-bottom: 49px;
+    margin-right: 126px;
+    margin-left: 126px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.plants-cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.card-image{
+    margin-bottom: 30px;
+}
+.card-name{
+    color: #111111;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+}
+.card-price{
+    color: #111111;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+}
+.card-btn{
+    margin-top: 30px;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    width: 100%;
+    color: #FFFFFF;
+    background-color: #E95A08;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+}
+/* plants styles */
+.plants-lover{
+    margin-bottom: 130px;
+    margin-top: 210px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px;
+    /* position: relative; */
+}
+.plants-badge{
+    position: absolute;
+    top: -100px;
+    right: -100px;
+    width: 50%;
+    /* transform: translate(-62%); */
+}
+.plants-badge img{
+    width: 100%;
+    /* height: auto;
+    z-index: 10; */
+}
+.plants-lover-image{
+    /* width: 540px; */
+    /* height: 597px; */
+    position: relative;
+}
+.plants-lover-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.plants-lover-content{
+    position: relative;
+    /* width: 48%; */
+    width: 540px;
+    padding-top:  40px;
+    /* padding-bottom: 40px; */
+}
+.plants-lover-content ul{
+    font-size: 22px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color: rgba(0, 0, 0, 0.5);
+}
+.plants-lover-content ul li{
+    line-height: 1.6;
+    margin-top: 20px;
+    /* margin-bottom: 20px; */
+    
+    margin-bottom: 20px;
+}
+.plants-lover-title{
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: "Noto Serif", serif;
+    color: #000000;
+}
+/* latest deals section */
+
+.deals-content{
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 120px;
+}
+.deals-title{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: "Noto Serif", serif;
+    color: #000;
+    margin-bottom: 16px;
+}
+.latest{
+    color: #E95A08;
+    margin-right: 15px;
+}
+.deals-subtitle{
+    text-align: center;
+    max-width: 888px;
+    margin: 0 auto;
+    font-size: 22px;
+    font-weight: 400;
+     font-family: "Inter", sans-serif;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+ .deals-card{
+    display: flex;
+    height: 423px;
+    gap: 25px;
+    
+ }  
+.deals-left{
+    width: 33%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 25px;
+    height: 423px;
+   } 
+
+.deals-left-bloom{
+    background-image: url(../assets/deal-bloom.png);
+    background-size: cover;
+    border-radius: 10px;
+}
+.deals-left-ana{
+    background-image: url(../assets/deal-ana.png);
+    background-size: cover;
+    border-radius: 10px;
+}
+.deals-right{
+    width: 66%;
+    background-image: url(../assets/deal-zabo.png);
+    background-size: cover;
+    border-radius: 10px;
+    padding: 172px 128px;
+    
+}
+.deals-card-content{
+     /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+    padding: 55px 70px;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFFFFF;
+    
+}
+.deals-right .deals-card-content h4{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Noto Serif", serif;
+    
+}
+.deals-right .deals-card-content h4{
+    font-size: 28px;
+    font-weight: 700;
+     font-family: "Inter", sans-serif;
+}
+
+/* join section styles  */
+.join-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 120px;
+    background-image: url(../assets/news-letter-bg.png);
+    background-size: cover;
+    height: 537px;
+}
+.join-btn{
+    color: #FFFFFF;
+    background-color: #E95A08;
+    border: none;
+}
+.join-section-title{
+   font-size: 50px;
+   font-weight: 700;
+   font-family: "Noto Serif", serif;
+   color: #FFFFFF;
+}
+.join-input input{
+    border: none;
+    /* width: 833px; */
+    text-align: left;
+    padding-top: 15px ;
+    padding-bottom: 15px;
+    padding-right: 240px;
+    padding-left: 5px;
+}
+.join-input input:focus{
+    border: none;
+    outline: none;
+}
+.join-btn{
+     padding: 15px 95px;
+}
+/* footer styles */
+.footer-section{
+    padding: 50px 160px;
+}
+.footer-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 110px;
+}
+.footer-logo img{
+    width: 135px;
+    height: 82px;
+    margin-bottom: 16px;
+}
+.footer-content{
+    font-size: 22px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color: rgba(0, 0, 0, 0.5);
+}
+.footer-left{
+    display: flex;
+    flex-direction: column;
+}
+.footer-menu ul li{
+    list-style: none;
+    margin-bottom: 32px;
+}
+.footer-menu ul li a{
+    text-decoration: none;
+    color: gray;
+    font-family: "Inter", sans-serif;
+}
+.footer-icon{
+    display: flex;
+    gap: 24px;
+}
+.footer-icon img{
+    width: 36px;
+    height: 36px;
+}
