@@ -370,3 +370,11 @@ body img{
     width: 36px;
     height: 36px;
 }
+
+
+/*mobile responsive  */
+@media screen and (max-width:576px){
+    .menu-items{
+        visibility: hidden;
+    }
+}
