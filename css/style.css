@@ -431,7 +431,9 @@ body img{
     list-style: disc;
    }
    /* deals */
-  
+  /* .deals{
+    overflow: hidden;
+  } */
    .deals-title{
     font-size: 24px;
    }
@@ -451,5 +453,8 @@ body img{
     height: 184px;
    }
    /* join */
-   
+   .join-section{
+    height: 275px;
+    margin-top: 100px;
+   }
 }
