@@ -480,5 +480,7 @@ body img{
     padding: 10px 40px;
     margin-bottom: 5px;
    }
-   
+   body{
+    scroll-behavior: none;
+   }
 }
